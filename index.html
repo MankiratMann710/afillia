@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Afillia Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Afillia</h2>
+    <ul>
+      <li><button class="sidebar-btn">Profile Settings</button></li>
+      <li><button class="sidebar-btn active">Apps</button></li>
+      <li><button class="sidebar-btn">Appearance</button></li>
+      <li><button class="sidebar-btn">Account Settings</button></li>
+    </ul>
+    <div class="bottom-section">
+      <button class="sidebar-btn notifications">Notifications <span class="badge">12</span></button>
+      <button class="sidebar-btn support">Support</button>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <h1>Applications</h1>
+    <div class="content-center">
+      <div class="search-container">
+        <input type="text" placeholder="Search An App" class="search-bar"/>
+      </div>
+      <div class="app-grid">
+        <div class="app">
+          <img src="assets/icons/slack.png" alt="Slack"/>
+          <p>Slack</p>
+        </div>
+        <div class="app">
+          <img src="assets/icons/google-calendar.png" alt="Google Calendar"/>
+          <p>Google Calendar</p>
+        </div>
+        <div class="app">
+          <img src="assets/icons/monday.svg" alt="Monday"/>
+          <p>Monday</p>
+        </div>
+        <div class="app">
+          <img src="assets/icons/gmail.png" alt="Gmail"/>
+          <p>Gmail</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    <div class="user-profile">
+      <img src="assets/images/user.png" alt="User" />
+      <div class="user-info">
+        <p>Alex Thompson</p>
+        <p>alex.thompson@afillia.com</p>
+      </div>
+    </div>
+    <a href="#" class="remove-app">Remove an app</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
